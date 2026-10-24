@@ -1,0 +1,43 @@
+{
+  "core": {
+    "description": "UAV-oriented small and medium VLMs intended for single-server sequential inference.",
+    "model_ids": [
+      "qwen3_5_2b",
+      "qwen3_5_4b",
+      "qwen3_5_9b",
+      "gemma4_e2b_it",
+      "gemma4_e4b_it",
+      "qwen3_vl_2b",
+      "qwen3_vl_4b",
+      "qwen3_vl_8b",
+      "qwen2_5_vl",
+      "internvl3_5_8b",
+      "minicpm_v_4_5",
+      "glm4_6v_flash",
+      "smolvlm2_2_2b",
+      "phi4_mm",
+      "aya_vision",
+      "llava_next",
+      "idefics3"
+    ]
+  },
+  "extended": {
+    "description": "Larger or more dependency-sensitive models for stronger comparison runs, not default UAV-deployment baselines.",
+    "model_ids": [
+      "qwen3_5_27b",
+      "qwen3_5_27b_fp8",
+      "qwen3_5_35b_a3b",
+      "qwen3_5_35b_a3b_fp8",
+      "qwen3_6_27b",
+      "qwen3_6_27b_fp8",
+      "qwen3_6_35b_a3b",
+      "qwen3_vl_30b_a3b",
+      "qwen3_vl_32b",
+      "gemma4_26b_a4b_it",
+      "gemma4_31b_it",
+      "glm4_6v",
+      "ovis2_8b",
+      "ovis2_16b"
+    ]
+  }
+}

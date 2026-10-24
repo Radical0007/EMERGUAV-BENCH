@@ -1,0 +1,38 @@
+# Reference repositories & external data
+data/
+artifacts/
+outputs/
+.cache/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.pyc
+*.pyo
+
+# Local notebooks and editor state
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+~$*
+
+datasets/
+*.egg-info/
+.conda/
+logs/
+build/
+tmp/
+
+.env
+
+# Generated figures and test scratch data
+img/generated/
+.test_tmp/
